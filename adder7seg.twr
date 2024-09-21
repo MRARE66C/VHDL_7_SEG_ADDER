@@ -1,0 +1,116 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 2
+-n 3 -fastpaths -xml adder7seg.twx adder7seg.ncd -o adder7seg.twr adder7seg.pcf
+-ucf adder7seg.ucf
+
+Design file:              adder7seg.ncd
+Physical constraint file: adder7seg.pcf
+Device,package,speed:     xc6slx9,tqg144,C,-2 (PRODUCTION 1.23 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+dip_0<0>       |c_o            |    9.831|
+dip_0<0>       |seg<0>         |   11.115|
+dip_0<0>       |seg<1>         |   11.369|
+dip_0<0>       |seg<2>         |   11.373|
+dip_0<0>       |seg<3>         |   11.487|
+dip_0<0>       |seg<4>         |   11.352|
+dip_0<0>       |seg<5>         |   12.015|
+dip_0<0>       |seg<6>         |   12.170|
+dip_0<1>       |c_o            |    9.810|
+dip_0<1>       |seg<0>         |   11.094|
+dip_0<1>       |seg<1>         |   11.348|
+dip_0<1>       |seg<2>         |   11.352|
+dip_0<1>       |seg<3>         |   11.466|
+dip_0<1>       |seg<4>         |   11.283|
+dip_0<1>       |seg<5>         |   11.994|
+dip_0<1>       |seg<6>         |   12.149|
+dip_0<2>       |c_o            |    9.789|
+dip_0<2>       |seg<0>         |   11.073|
+dip_0<2>       |seg<1>         |   11.327|
+dip_0<2>       |seg<2>         |   11.331|
+dip_0<2>       |seg<3>         |   11.445|
+dip_0<2>       |seg<4>         |   11.262|
+dip_0<2>       |seg<5>         |   11.973|
+dip_0<2>       |seg<6>         |   12.128|
+dip_0<3>       |c_o            |    9.111|
+dip_0<3>       |seg<0>         |   10.395|
+dip_0<3>       |seg<1>         |   10.649|
+dip_0<3>       |seg<2>         |   10.653|
+dip_0<3>       |seg<3>         |   10.767|
+dip_0<3>       |seg<4>         |   10.584|
+dip_0<3>       |seg<5>         |   11.295|
+dip_0<3>       |seg<6>         |   11.450|
+dip_1<0>       |c_o            |   10.028|
+dip_1<0>       |seg<0>         |   11.312|
+dip_1<0>       |seg<1>         |   11.566|
+dip_1<0>       |seg<2>         |   11.570|
+dip_1<0>       |seg<3>         |   11.684|
+dip_1<0>       |seg<4>         |   11.501|
+dip_1<0>       |seg<5>         |   12.212|
+dip_1<0>       |seg<6>         |   12.367|
+dip_1<1>       |c_o            |    9.506|
+dip_1<1>       |seg<0>         |   10.790|
+dip_1<1>       |seg<1>         |   11.044|
+dip_1<1>       |seg<2>         |   11.048|
+dip_1<1>       |seg<3>         |   11.162|
+dip_1<1>       |seg<4>         |   10.979|
+dip_1<1>       |seg<5>         |   11.690|
+dip_1<1>       |seg<6>         |   11.845|
+dip_1<2>       |c_o            |    9.291|
+dip_1<2>       |seg<0>         |   10.575|
+dip_1<2>       |seg<1>         |   10.829|
+dip_1<2>       |seg<2>         |   10.833|
+dip_1<2>       |seg<3>         |   10.947|
+dip_1<2>       |seg<4>         |   10.764|
+dip_1<2>       |seg<5>         |   11.475|
+dip_1<2>       |seg<6>         |   11.630|
+dip_1<3>       |c_o            |    8.504|
+dip_1<3>       |seg<0>         |    9.788|
+dip_1<3>       |seg<1>         |   10.042|
+dip_1<3>       |seg<2>         |   10.046|
+dip_1<3>       |seg<3>         |   10.160|
+dip_1<3>       |seg<4>         |    9.977|
+dip_1<3>       |seg<5>         |   10.688|
+dip_1<3>       |seg<6>         |   10.843|
+---------------+---------------+---------+
+
+
+Analysis completed Sat Sep 21 03:10:38 2024 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 4572 MB
+
+
+

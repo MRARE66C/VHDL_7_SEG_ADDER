@@ -1,0 +1,23 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Sat Sep 21 03:10:28 2024
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "seg<0>" LOCATE = SITE "P41" LEVEL 1;
+COMP "dip_0<0>" LOCATE = SITE "P66" LEVEL 1;
+COMP "seg<1>" LOCATE = SITE "P40" LEVEL 1;
+COMP "dip_0<1>" LOCATE = SITE "P62" LEVEL 1;
+COMP "seg<2>" LOCATE = SITE "P35" LEVEL 1;
+COMP "dip_0<2>" LOCATE = SITE "P61" LEVEL 1;
+COMP "seg<3>" LOCATE = SITE "P34" LEVEL 1;
+COMP "dip_0<3>" LOCATE = SITE "P59" LEVEL 1;
+COMP "seg<4>" LOCATE = SITE "P32" LEVEL 1;
+COMP "dip_1<0>" LOCATE = SITE "P58" LEVEL 1;
+COMP "seg<5>" LOCATE = SITE "P29" LEVEL 1;
+COMP "dip_1<1>" LOCATE = SITE "P57" LEVEL 1;
+COMP "seg<6>" LOCATE = SITE "P27" LEVEL 1;
+COMP "dip_1<2>" LOCATE = SITE "P56" LEVEL 1;
+COMP "dip_1<3>" LOCATE = SITE "P55" LEVEL 1;
+COMP "com0" LOCATE = SITE "P44" LEVEL 1;
+SCHEMATIC END;
+

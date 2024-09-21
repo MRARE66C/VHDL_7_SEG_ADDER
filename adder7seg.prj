@@ -1,0 +1,5 @@
+vhdl work "FA.vhd"
+vhdl work "Adder.vhd"
+vhdl work "bcd7.vhd"
+vhdl work "add_4.vhd"
+vhdl work "adder7seg.vhd"

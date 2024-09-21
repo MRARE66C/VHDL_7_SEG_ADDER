@@ -1,0 +1,17 @@
+xst -intstyle ise -ifn "C:/LAB2024/ADDER7SEGMENT/adder7seg.xst" -ofn "C:/LAB2024/ADDER7SEGMENT/adder7seg.syr" 
+xst -intstyle ise -ifn "C:/LAB2024/ADDER7SEGMENT/adder7seg.xst" -ofn "C:/LAB2024/ADDER7SEGMENT/adder7seg.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc adder7seg.ucf -p xc6slx9-tqg144-2 adder7seg.ngc adder7seg.ngd  
+xst -intstyle ise -ifn "C:/LAB2024/ADDER7SEGMENT/adder7seg.xst" -ofn "C:/LAB2024/ADDER7SEGMENT/adder7seg.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc adder7seg.ucf -p xc6slx9-tqg144-2 adder7seg.ngc adder7seg.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc adder7seg.ucf -p xc6slx9-tqg144-2 adder7seg.ngc adder7seg.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc adder7seg.ucf -p xc6slx9-tqg144-2 adder7seg.ngc adder7seg.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o adder7seg_map.ncd adder7seg.ngd adder7seg.pcf 
+par -w -intstyle ise -ol high -mt off adder7seg_map.ncd adder7seg.ncd adder7seg.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml adder7seg.twx adder7seg.ncd -o adder7seg.twr adder7seg.pcf -ucf adder7seg.ucf 
+bitgen -intstyle ise -f adder7seg.ut adder7seg.ncd 
+xst -intstyle ise -ifn "C:/LAB2024/ADDER7SEGMENT/adder7seg.xst" -ofn "C:/LAB2024/ADDER7SEGMENT/adder7seg.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc adder7seg.ucf -p xc6slx9-tqg144-2 adder7seg.ngc adder7seg.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o adder7seg_map.ncd adder7seg.ngd adder7seg.pcf 
+par -w -intstyle ise -ol high -mt off adder7seg_map.ncd adder7seg.ncd adder7seg.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml adder7seg.twx adder7seg.ncd -o adder7seg.twr adder7seg.pcf -ucf adder7seg.ucf 
+bitgen -intstyle ise -f adder7seg.ut adder7seg.ncd 

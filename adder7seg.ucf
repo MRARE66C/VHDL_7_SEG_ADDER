@@ -1,0 +1,21 @@
+#Dip switch
+NET "dip_0[0]" LOC = P66;
+NET "dip_0[1]" LOC = P62;
+NET "dip_0[2]" LOC = P61;
+NET "dip_0[3]" LOC = P59;
+NET "dip_1[0]" LOC = P58;
+NET "dip_1[1]" LOC = P57;
+NET "dip_1[2]" LOC = P56;
+NET "dip_1[3]" LOC = P55;
+
+#7seg
+NET "seg[0]" LOC = P41;
+NET "seg[1]" LOC = P40;
+NET "seg[2]" LOC = P35;
+NET "seg[3]" LOC = P34;
+NET "seg[4]" LOC = P32;
+NET "seg[5]" LOC = P29;
+NET "seg[6]" LOC = P27;
+
+#common
+NET "com0" LOC = P44;
